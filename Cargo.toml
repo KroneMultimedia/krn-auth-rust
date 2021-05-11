@@ -5,6 +5,8 @@ authors = ["Helmut Januschka <helmut@januschka.com>"]
 edition = "2018"
 license = "MIT"
 description = "KRN Auth"
+homepage = "http://github.com/KroneMultimedia/krn-auth-rust"
+repository = "http://github.com/mikkyang/rust-jwt"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
