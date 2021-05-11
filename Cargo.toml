@@ -1,0 +1,27 @@
+[package]
+name = "krn-auth-rust"
+version = "0.1.0"
+authors = ["Helmut Januschka <helmut@januschka.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+name = "krn_auth"
+path = "src/lib.rs"
+
+[[bin]]
+name = "krn_auth_demo"
+path = "src/bin.rs"
+
+
+[dependencies]
+jsonwebtoken = "7"
+base64 = "*"
+openssl = "*"
+serde_json = "*"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+
+
+serde = {version = "1.0", features = ["derive"] }
