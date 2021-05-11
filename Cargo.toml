@@ -3,6 +3,8 @@ name = "krn-auth-rust"
 version = "0.1.0"
 authors = ["Helmut Januschka <helmut@januschka.com>"]
 edition = "2018"
+license = "MIT"
+description = "KRN Auth"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
